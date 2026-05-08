@@ -1,0 +1,50 @@
+[
+  {
+    "id": "svs-mdrrmo",
+    "title": "Smart Verification System (SVS)",
+    "description": "A comprehensive disaster management platform designed for the Mapandan MDRRMO to streamline emergency reporting and verification workflows. Fixed CSS issues, optimized layout alignment for visual hierarchy, and conducted extensive functional testing. Designed official SVS logo representing safety and municipal verification.",
+    "shortDescription": "Disaster management platform with improved UI/UX for emergency response",
+    "techStack": ["EJS", "Node.js", "Tailwind CSS", "Vercel"],
+    "category": "Full Stack",
+    "completionDate": "2026-05-01",
+    "link": "https://svsmdrrmo.vercel.app/",
+    "featured": true,
+    "image": "/images/svslogo.png"
+  },
+  {
+    "id": "clm-graphics",
+    "title": "CLM Graphics - Car Dealer Designs",
+    "description": "Designed and created professional graphics for car dealership marketing materials. Developed custom designs showcasing various car models and service offerings using modern design principles and brand consistency.",
+    "shortDescription": "Professional graphics design for car dealer marketing campaigns",
+    "techStack": ["Canva", "Design Tools"],
+    "category": "Design",
+    "completionDate": "2026-02-11",
+    "link": "https://www.canva.com/design/DAHA0UVGPwc/MpX7GrA14t-QhIZnqke6iA/edit",
+    "featured": true,
+    "image": "/images/graphics.png"
+  },
+  {
+    "id": "page-creation-seo",
+    "title": "Page Creation & SEO Optimization",
+    "description": "Contributed to content creation and SEO optimization for car dealership websites. Performed comprehensive SEO testing, verified Google Maps integration, tested mobile responsiveness, optimized H1 tags, and updated dealer-specific imagery across multiple dealership sites.",
+    "shortDescription": "SEO-optimized page creation and testing for car dealership websites",
+    "techStack": ["HTML", "CSS", "SEO", "Mobile Simulator", "VS Code"],
+    "category": "Frontend",
+    "completionDate": "2026-03-13",
+    "link": "https://www.hondaofbellingham.com/2026-honda-civic-hybrid-vs-2026-toyota-corolla-hybrid-bellingham-wa/",
+    "featured": true,
+    "image": "/images/creation.png"
+  },
+  {
+    "id": "deskdine",
+    "title": "DeskDine - Restaurant Order Management",
+    "description": "Designed a high-contrast UI system for a restaurant order management platform using neo-brutalism aesthetic. Implemented Bento Box grid layout prioritizing critical order information. Created accessible color scheme (Burnt Orange/Off-White) optimized for high-glare cafe counter environments. Improved navigation flow for seamless staff interaction.",
+    "shortDescription": "Neo-brutalism UI design for restaurant order management system",
+    "techStack": ["React", "Tailwind CSS", "UI/UX Design", "Accessibility"],
+    "category": "UI/UX Design",
+    "completionDate": "2026-05-15",
+    "link": "https://github.com/jean111051/deskdine.git",
+    "featured": false,
+    "image": "/images/desk.png"
+  }
+]

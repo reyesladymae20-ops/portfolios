@@ -1,0 +1,30 @@
+{
+    "name":  "portfolio",
+    "version":  "1.0.0",
+    "description":  "A high-performance, SEO-optimized portfolio built with Next.js",
+    "scripts":  {
+                    "dev":  "next dev",
+                    "build":  "next build",
+                    "start":  "next start",
+                    "lint":  "next lint",
+                    "type-check":  "tsc --noEmit"
+                },
+    "dependencies":  {
+                         "next":  "^15.0.0",
+                         "react":  "^19.0.0",
+                         "react-dom":  "^19.0.0",
+                         "gray-matter":  "^4.0.3",
+                         "marked":  "^13.0.0"
+                     },
+    "devDependencies":  {
+                            "@types/node":  "^20.0.0",
+                            "@types/react":  "^19.0.0",
+                            "@types/react-dom":  "^19.0.0",
+                            "typescript":  "^5.0.0",
+                            "tailwindcss":  "^3.4.0",
+                            "@tailwindcss/typography":  "^0.5.10",
+                            "postcss":  "^8.4.0",
+                            "autoprefixer":  "^10.4.0",
+                            "@types/marked":  "^6.0.0"
+                        }
+}
