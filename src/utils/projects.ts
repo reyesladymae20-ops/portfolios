@@ -57,3 +57,7 @@ export function filterProjects(
 
   return filtered;
 }
+
+export function getProjectById(id: string): Project | undefined {
+  return getAllProjects().find((project) => project.id === id);
+}

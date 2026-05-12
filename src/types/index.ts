@@ -4,11 +4,13 @@ export interface Project {
   description: string;
   shortDescription: string;
   techStack: string[];
-  category: 'Frontend' | 'Backend' | 'Research' | 'SEO Audit' | 'Full Stack';
+  category: 'Frontend' | 'Backend' | 'Research' | 'SEO Audit' | 'Full Stack' | 'Design' | 'UI/UX Design';
   completionDate: string;
   link?: string;
+  github?: string;
   image?: string;
   featured: boolean;
+  status?: 'Completed' | 'In-Progress';
 }
 
 export interface Log {

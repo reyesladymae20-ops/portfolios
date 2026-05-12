@@ -1,6 +1,5 @@
 import { getAllLogs } from '@/utils/content';
 import Link from 'next/link';
-import { Badge } from '@/components/atoms';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -20,26 +19,34 @@ export default function LogsPage() {
         </p>
 
         {logs.length > 0 ? (
-          <div className="space-y-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {logs.map((log) => (
               <Link key={log.slug} href={`/logs/${log.slug}`}>
-                <article className="p-6 border-l-4 border-blue-600 bg-white hover:bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-all cursor-pointer">
-                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-3">
-                    <h2 className="text-2xl font-bold text-gray-900 mb-2 md:mb-0">
-                      {log.title}
-                    </h2>
-                    <time className="text-sm text-gray-500">
-                      {new Date(log.date).toLocaleDateString('en-US', {
-                        year: 'numeric',
-                        month: 'long',
-                        day: 'numeric',
-                      })}
-                    </time>
-                  </div>
-                  <p className="text-gray-600 mb-4">{log.excerpt}</p>
-                  <div className="flex items-center justify-between">
-                    <Badge variant="default">{log.readingTime} min read</Badge>
-                    <span className="text-blue-600 font-semibold hover:text-blue-700">
+                <article className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full flex flex-col cursor-pointer">
+                  <div className="p-6 flex flex-col flex-grow">
+                    <div className="mb-3">
+                      <h2 className="text-xl font-bold text-gray-900 mb-2">
+                        {log.title}
+                      </h2>
+                      <p className="text-gray-600 text-sm mb-4">{log.excerpt}</p>
+                    </div>
+
+                    <div className="flex-grow" />
+
+                    <div className="flex items-center justify-between text-sm text-gray-500 mb-4">
+                      <time>
+                        {new Date(log.date).toLocaleDateString('en-US', {
+                          year: 'numeric',
+                          month: 'long',
+                          day: 'numeric',
+                        })}
+                      </time>
+                      <span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-xs font-medium">
+                        {log.readingTime} min read
+                      </span>
+                    </div>
+
+                    <span className="inline-block text-blue-600 font-semibold hover:text-blue-700 transition-colors">
                       Read More →
                     </span>
                   </div>

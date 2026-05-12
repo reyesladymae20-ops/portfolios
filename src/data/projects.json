@@ -2,19 +2,20 @@
   {
     "id": "svs-mdrrmo",
     "title": "Smart Verification System (SVS)",
-    "description": "A comprehensive disaster management platform designed for the Mapandan MDRRMO to streamline emergency reporting and verification workflows. Fixed CSS issues, optimized layout alignment for visual hierarchy, and conducted extensive functional testing. Designed official SVS logo representing safety and municipal verification.",
+    "description": "A comprehensive disaster management platform designed for the Mapandan MDRRMO to streamline emergency reporting and verification workflows.\n\nKey Contributions:\n• Fixed CSS issues and adjusted layout alignments to improve visual hierarchy and readability\n• Conducted comprehensive functional testing to identify and resolve bugs in the reporting workflow\n• Created official SVS logo representing safety and municipal verification\n• Significantly improved UI by standardizing margins, padding, and element alignment\n\nDemonstration Credentials:\n- User: https://svsmdrrmo.vercel.app/\n- Admin Login: https://svsmdrrmo.vercel.app/login (username: admin | password: SVS_Admin_2026_MDRRMO_4kN8pzQ7)\n- Dispatcher: https://svsmdrrmo.vercel.app/dispatcher/login (username: ladymae | password: 123456)",
     "shortDescription": "Disaster management platform with improved UI/UX for emergency response",
     "techStack": ["EJS", "Node.js", "Tailwind CSS", "Vercel"],
     "category": "Full Stack",
-    "completionDate": "2026-05-01",
+    "completionDate": "2026-05-10",
     "link": "https://svsmdrrmo.vercel.app/",
+    "github": "https://github.com/BrownyKat/SVS-MDRRMO.git",
     "featured": true,
     "image": "/images/svslogo.png"
   },
   {
     "id": "clm-graphics",
     "title": "CLM Graphics - Car Dealer Designs",
-    "description": "Designed and created professional graphics for car dealership marketing materials. Developed custom designs showcasing various car models and service offerings using modern design principles and brand consistency.",
+    "description": "Professional graphics design for car dealership marketing materials and service designs.\n\nKey Contributions:\n• Designed car dealer marketing campaigns and visuals\n• Created car service promotional designs\n• Developed brand-consistent graphics across multiple dealer campaigns\n\nTechnical Skills: Canva, Design Principles, Brand Consistency",
     "shortDescription": "Professional graphics design for car dealer marketing campaigns",
     "techStack": ["Canva", "Design Tools"],
     "category": "Design",
@@ -26,7 +27,7 @@
   {
     "id": "page-creation-seo",
     "title": "Page Creation & SEO Optimization",
-    "description": "Contributed to content creation and SEO optimization for car dealership websites. Performed comprehensive SEO testing, verified Google Maps integration, tested mobile responsiveness, optimized H1 tags, and updated dealer-specific imagery across multiple dealership sites.",
+    "description": "Contributed to content creation and SEO optimization for car dealership websites across multiple dealership locations.\n\nKey Contributions:\n• Changed content for car dealers and optimized page structure\n• Conducted comprehensive SEO testing (H1 optimization, meta tags)\n• Tested Google Maps integration for dealership locations\n• Mobile responsiveness testing using Mobile Simulator Extension\n• Updated dealer-specific imagery across multiple dealership sites\n• Created testing documentation and improvement reports\n\nOptimized Dealership Sites:\n• Honda of Bellingham\n• West Hills Honda\n• Additional dealer network sites",
     "shortDescription": "SEO-optimized page creation and testing for car dealership websites",
     "techStack": ["HTML", "CSS", "SEO", "Mobile Simulator", "VS Code"],
     "category": "Frontend",
@@ -38,13 +39,15 @@
   {
     "id": "deskdine",
     "title": "DeskDine - Restaurant Order Management",
-    "description": "Designed a high-contrast UI system for a restaurant order management platform using neo-brutalism aesthetic. Implemented Bento Box grid layout prioritizing critical order information. Created accessible color scheme (Burnt Orange/Off-White) optimized for high-glare cafe counter environments. Improved navigation flow for seamless staff interaction.",
+    "description": "Designed a high-contrast UI system for a restaurant order management platform using neo-brutalism aesthetic.\n\nKey Contributions:\n• Designed overall look and feel using neo-brutalism aesthetic\n• Arranged Bento Box grid layout prioritizing critical order information\n• Applied continuous improvements based on early feedback\n• Enhanced button accessibility and color contrast\n\nDesign Specifications:\n• High-contrast UI kit with Burnt Orange/Off-White color scheme\n• Thin gray borders optimized for high-glare cafe counter environments\n• Improved navigation flow for seamless staff interaction\n• Accessibility-first design approach",
     "shortDescription": "Neo-brutalism UI design for restaurant order management system",
     "techStack": ["React", "Tailwind CSS", "UI/UX Design", "Accessibility"],
     "category": "UI/UX Design",
-    "completionDate": "2026-05-15",
+    "completionDate": "2026-05-7",
     "link": "https://github.com/jean111051/deskdine.git",
-    "featured": false,
-    "image": "/images/desk.png"
+    "github": "https://github.com/jean111051/deskdine.git",
+    "featured": true,
+    "image": "/images/desk.png",
+    "status": "In-Progress"
   }
 ]

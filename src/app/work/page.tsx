@@ -24,15 +24,13 @@ export default function WorkPage() {
 
   const toggleCategory = (category: Category) => {
     setSelectedCategories((prev) =>
-      prev.includes(category)
-        ? prev.filter((c) => c !== category)
-        : [...prev, category]
+      prev.includes(category) ? [] : [category]
     );
   };
 
   const toggleTech = (tech: string) => {
     setSelectedTech((prev) =>
-      prev.includes(tech) ? prev.filter((t) => t !== tech) : [...prev, tech]
+      prev.includes(tech) ? [] : [tech]
     );
   };
 
