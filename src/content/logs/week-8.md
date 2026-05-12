@@ -4,7 +4,7 @@ date: "2026-04-21"
 excerpt: "Initiated the development of the DeskDine cafe management system, implemented high-contrast accessibility features, and began the final OJT portfolio architecture."
 ---
 ### Overview
-Week 8 (April 21 – May 8) focused on the technical execution of the DeskDine platform and the synthesis of all internship accomplishments into a final professional output. This period bridged the gap between high-fidelity UI design and complex functional logic.
+Week 8 (April 21 – May 7) focused on the technical execution of the DeskDine platform and the synthesis of all internship accomplishments into a final professional output. This period bridged the gap between high-fidelity UI design and complex functional logic.
 
 ### DeskDine Technical Development
 Core Implementation
