@@ -1,5 +1,5 @@
 ---
-title: "Full-Stack Consolidation & Technical Training"
+title: "Technical Training"
 date: "2026-03-06"
 excerpt: "Intensive Node.js skill-building, localized automotive page deployment, and participation in the Base Build Mapandan technical event."
 ---

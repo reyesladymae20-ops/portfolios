@@ -37,7 +37,7 @@ export default function Home() {
           {/* About Content */}
           <div className="flex-1">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Hi, I'm Here!
+              Hi, I'm Lady Mae L. Reyes!
             </h2>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
               A passionate designer and developer dedicated to creating beautiful, 
@@ -52,7 +52,7 @@ export default function Home() {
                 View My Work
               </Link>
               <a
-                href="mailto:your-email@example.com"
+                href="mailto:reyesladymae20@example.com"
                 className="px-6 py-3 border-2 border-blue-600 text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-colors"
               >
                 Get In Touch
