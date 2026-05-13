@@ -19,11 +19,11 @@ export default function LogsPage() {
         </p>
 
         {logs.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 gap-10">
             {logs.map((log) => (
               <Link key={log.slug} href={`/logs/${log.slug}`}>
                 <article className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full flex flex-col cursor-pointer border border-gray-100">
-                  <div className="p-6 flex flex-col flex-grow">
+                  <div className="p-8 flex flex-col flex-grow">
                     <div className="mb-3">
                       <h2 className="text-xl font-bold text-gray-900 mb-2">
                         {log.title}
